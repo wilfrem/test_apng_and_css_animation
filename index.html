@@ -2,11 +2,34 @@
 <html>
 <head>
 <style>
+@keyframes fall {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 
+    95% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(500px);
+    }
+}
+
+.fall {
+   position: absolute;
+  animation: fall 8s ease-in 0s 1 normal both running;
+ 
+}
 </style>
 <body>
   <div>
-    <img src="./sample.png" />
+    <img class="fall" src="./sample.png?hoge" />
+  </div>
+  <div>
+    <img src="./sample.png?fuga" />
   </div>
 </body>
 </html>
