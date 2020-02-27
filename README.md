@@ -1,2 +1,5 @@
 # test_apng_and_css_animation
 apngとcssアニメーションの試験
+
+iPhoneで拡大して半分見切れるようにするとアニメーションが一部停止する感じになる
+
